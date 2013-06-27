@@ -1,5 +1,5 @@
 name: rethinkdb
-version: 0.0.2
+version: 0.0.3
 inherits: wercker/ubuntu12.04-webessentials@0.0.3
 type: service
 platform: ubuntu@12.04
