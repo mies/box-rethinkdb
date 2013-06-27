@@ -22,4 +22,4 @@ env:
   WERCKER_RETHINKDB_URL: $$HOST$$:28015
   WERCKER_RETHINKDB_VERSION: "1.6.1"
 init-script: |
-  sudo rethinkdb &
+  sudo rethinkdb
