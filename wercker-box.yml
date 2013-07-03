@@ -17,7 +17,7 @@ script: |
   sudo apt-get update -y
   sudo apt-get install rethinkdb -y
   sudo mkdir -p /etc/rethinkdb/instances.d
-  sudo echo "bind=all" > /etc/rethinkdb/instances.d/default.conf
+  sudo -- sh -c "echo 'bind=all' > /etc/rethinkdb/instances.d/default.conf"
 env:
   WERCKER_RETHINKDB_PORT: 28015
   WERCKER_RETHINKDB_HOST: $$HOST$$
