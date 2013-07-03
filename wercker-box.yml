@@ -1,5 +1,5 @@
 name: rethinkdb
-version: 0.0.4
+version: 0.0.5
 inherits: wercker/ubuntu12.04-webessentials@0.0.3
 type: service
 platform: ubuntu@12.04
@@ -16,6 +16,7 @@ script: |
   sudo add-apt-repository ppa:rethinkdb/ppa -y
   sudo apt-get update -y
   sudo apt-get install rethinkdb -y
+  sudo mkdir -p /etc/rethinkdb/instances.d
   sudo echo "bind=all" > /etc/rethinkdb/instances.d/default.conf
 env:
   WERCKER_RETHINKDB_PORT: 28015
