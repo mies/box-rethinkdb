@@ -6,6 +6,9 @@ Wercker box for rethinkdb
 See the boxes section on our [dev
 center](http://devcenter.wercker.com/articles/boxes)
 
+Source:
+https://github.com/mies/box-rethinkdb
+
 
 Status on wercker:
 
