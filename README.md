@@ -9,6 +9,12 @@ center](http://devcenter.wercker.com/articles/boxes)
 Source:
 https://github.com/mies/box-rethinkdb
 
+use this with wercker; in your wercker.yml file:
+
+services:
+  - mies/rethinkdb
+
+
 
 Status on wercker:
 
