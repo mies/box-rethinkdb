@@ -12,4 +12,4 @@ https://github.com/mies/box-rethinkdb
 
 Status on wercker:
 
-[![Wercker status](https://app.wercker.com/status/3afbacf80de0df1390d44e7976dcfff9/m)](https://app.wercker.com/project/bykey/3afbacf80de0df1390d44e7976dcfff9)
+[![wercker status](https://app.wercker.com/status/3afbacf80de0df1390d44e7976dcfff9/m "wercker status")](https://app.wercker.com/project/bykey/3afbacf80de0df1390d44e7976dcfff9)
