@@ -1,5 +1,5 @@
 name: rethinkdb
-version: 0.1.4
+version: 0.1.5
 inherits: wercker/ubuntu12.04-webessentials@0.0.3
 type: service
 platform: ubuntu@12.04
@@ -22,4 +22,4 @@ env:
   WERCKER_RETHINKDB_PORT: 28015
   WERCKER_RETHINKDB_HOST: $$HOST$$
   WERCKER_RETHINKDB_URL: $$HOST$$:28015
-  WERCKER_RETHINKDB_VERSION: "1.8"
+  WERCKER_RETHINKDB_VERSION: "1.10"
