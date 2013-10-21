@@ -28,7 +28,7 @@ I've also added a Vagrantfile + provisioning bash script so you can run a local 
 
 # What's new
 
-- Install RethinkDB 1.8 from PPA
+- Install RethinkDB 1.10 from PPA
 
 # License
 
