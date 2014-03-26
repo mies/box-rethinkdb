@@ -1,6 +1,6 @@
 name: rethinkdb
-version: 0.1.6
-inherits: wercker/ubuntu12.04-webessentials@1.0.0
+version: 0.1.7
+inherits: wercker/ubuntu12.04-webessentials@1.0.1
 type: service
 platform: ubuntu@12.04
 description: wercker box for rethinkdb an open source distributed database
@@ -11,7 +11,7 @@ keywords:
   - database
   - json
 packages:
-  - rethinkdb@1.11.3
+  - rethinkdb@1.12
 script: |
   sudo add-apt-repository ppa:rethinkdb/ppa -y
   sudo apt-get update -y
@@ -22,5 +22,5 @@ env:
   WERCKER_RETHINKDB_PORT: 28015
   WERCKER_RETHINKDB_HOST: $$HOST$$
   WERCKER_RETHINKDB_URL: $$HOST$$:28015
-  WERCKER_RETHINKDB_VERSION: "1.11.3"
+  WERCKER_RETHINKDB_VERSION: "1.12"
   RETHINKDB_URL: $$HOST$$:28015
