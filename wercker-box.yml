@@ -1,5 +1,5 @@
 name: rethinkdb
-version: 0.1.7
+version: 0.1.8
 inherits: wercker/ubuntu12.04-webessentials@1.0.1
 type: service
 platform: ubuntu@12.04
@@ -11,7 +11,7 @@ keywords:
   - database
   - json
 packages:
-  - rethinkdb@1.12
+  - rethinkdb@1.13
 script: |
   sudo add-apt-repository ppa:rethinkdb/ppa -y
   sudo apt-get update -y
