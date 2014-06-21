@@ -26,11 +26,11 @@ Status on wercker:
 
 I've also added a Vagrantfile + provisioning bash script so you can run a local instance with Rethinkdb and test the provisioning
 
-# What's new
+## What's new
 
-- Install RethinkDB 1.10 from PPA
+- Install RethinkDB 1.13 from the official repository
 
-# License
+## License
 
 The MIT License (MIT)
 
@@ -53,8 +53,12 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-# Changelog
+## Changelog
 
-## 0.1.3
+### 0.1.8
+
+- Install RethinkDB 1.13 from the official repository
+
+### 0.1.3
 
 - Install RethinkDB 1.8 from PPA
