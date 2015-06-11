@@ -28,7 +28,7 @@ I've also added a Vagrantfile + provisioning bash script so you can run a local 
 
 ## What's new
 
-- Install RethinkDB 1.13 from the official repository
+- Install RethinkDB 2.0.2 from the official repository
 
 ## License
 
@@ -54,6 +54,26 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Changelog
+
+### 0.6.0
+
+- Install RethinkDB 2.0.2 from the official repository
+
+### 0.5.0
+
+- Install RethinkDB 2.0.1 from the official repository
+
+### 0.4.0
+
+- Install RethinkDB 1.16.2 from the official repository
+
+### 0.3.0
+
+- Install RethinkDB 1.15 from the official repository
+
+### 0.2.0
+
+- Install RethinkDB 1.13.1 from the official repository
 
 ### 0.1.8
 
