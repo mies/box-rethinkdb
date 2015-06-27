@@ -55,6 +55,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Changelog
 
+### 0.7.0
+
+- Install RethinkDB 2.0.3 from the official repository
+
 ### 0.6.0
 
 - Install RethinkDB 2.0.2 from the official repository
