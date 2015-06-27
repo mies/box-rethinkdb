@@ -1,5 +1,5 @@
 name: rethinkdb
-version: 0.5.0
+version: 0.7.0
 inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: service
 platform: ubuntu@12.04
@@ -11,7 +11,7 @@ keywords:
   - database
   - json
 packages:
-  - rethinkdb@2.0.1
+  - rethinkdb@2.0.3
 script: |
   source /etc/lsb-release && echo "deb http://download.rethinkdb.com/apt $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
   wget -O- http://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add -
@@ -23,5 +23,5 @@ env:
   WERCKER_RETHINKDB_PORT: 28015
   WERCKER_RETHINKDB_HOST: $$HOST$$
   WERCKER_RETHINKDB_URL: $$HOST$$:28015
-  WERCKER_RETHINKDB_VERSION: "2.0.1"
+  WERCKER_RETHINKDB_VERSION: "2.0.3"
   RETHINKDB_URL: $$HOST$$:28015
